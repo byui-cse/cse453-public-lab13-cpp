@@ -21,10 +21,8 @@ public:
       sizeAlphabet = valueMaximum - valueMinimum + 1;
    }
    
-   virtual std::string getPseudoAuth()  { return "Brother Helfrich"; } 
+   virtual std::string getAuthor()  { return "Brother Helfrich"; } 
    virtual std::string getCipherName()  { return "Caesar Cipher";      }
-   virtual std::string getEncryptAuth() { return "Brother Helfrich"; }
-   virtual std::string getDecryptAuth() { return "Brother Helfrich"; }
 
    /***********************************************************
     * GET CIPHER CITATION

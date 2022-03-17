@@ -12,10 +12,8 @@
 class Cipher01 : public Cipher
 {
 public:
-   virtual std::string getPseudoAuth()  { return "pseudocode author"; }
-   virtual std::string getCipherName()  { return "cipher name"; }
-   virtual std::string getEncryptAuth() { return "encrypt author"; }
-   virtual std::string getDecryptAuth() { return "decrypt author"; }
+   virtual std::string getAuthor()  { return "author name"; } // TODO: return your name
+   virtual std::string getCipherName()  { return "cipher name"; } // TODO: return the cipher name
 
    /***********************************************************
     * GET CIPHER CITATION
@@ -23,6 +21,7 @@ public:
     ***********************************************************/
    virtual std::string getCipherCitation()
    {
+      // TODO: Return a citation for your cipher
       return std::string("citation");
    }
    

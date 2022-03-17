@@ -1,24 +1,13 @@
 # Lab 13 - Implement a cipher
 
-ui.cpp : A simple menu system to call the ciphers
-
-cipher.h : The base-class for all the ciphers
+ui.cpp : Code to run the user interface and the cipher
 
 example.h : An example of a cipher. Please look at this file if you would like to know what needs to be done.
 
-cipher01.h : Where the code for the first cipher goes.
+cipher.h : Base class that defines what a cipher is
 
-cipher02.h : Where the code for the second cipher goes.
+cipher01.h : This is where you should implement your cipher
 
-cipher03.h : Where the code for the third cipher goes.
-
-cipher04.h : Where the code for the fourth cipher goes.
-
-cipher05.h : Where the code for the fifth cipher goes.
-
-cipher06.h : Where the code for the sixth cipher (if needed) goes.
-
-cipher07.h : Where the code for the seventh cipher goes if there are seven members of your team.
 
 
 ## Getting Started
@@ -29,4 +18,6 @@ cipher07.h : Where the code for the seventh cipher goes if there are seven membe
 
     `./a.out`
 
-2. Implement your cipher in one of the cipher files, cipher01.h through cipher07.h
+2. Implement your cipher in cipher01.h
+
+3. Update ui.cpp so it runs your cipher
